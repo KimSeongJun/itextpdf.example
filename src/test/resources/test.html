@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+	<meta content="text/javascript" http-equiv="Content-Script-Type" />
+	<meta content="text/css" http-equiv="Content-Style-Type" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+	<link href="/css/_common/base.css" media="all" rel="stylesheet" type="text/css" />
+	<link href="/css/_common/common.css" media="all" rel="stylesheet" type="text/css" />
+	<link href="/css/_common/table.css" media="all" rel="stylesheet" type="text/css" />
+	<link href="/css/Cash/view.css" rel="stylesheet" type="text/css" />
+	<link href="/css/Cash/pdf.css" rel="stylesheet" type="text/css" />
+
+
+
+</head><body>
+
+<div id="print_body">
+		
+	<div align="center">
+		<div class="paper">
+			<div align="center">
+				<div class="full_invoice">
+					<div>
+		<div align="center" class="cr_b" id="cash_area_from" style="z-index: 1;">
+			<table class="cash_table" summary="현금영수증">
+				<colgroup>
+					<col width="16px" />
+					<col />
+					<col width="16px" />
+				</colgroup>
+				<thead>
+					
+					<tr>
+						<td colspan="3"><img class="fl_l" src="/images/cash/bg_top_print.gif" /></td>
+						
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="bg_left"></td>
+						<td>
+							<table class="publish_info table_common_cash">
+										<colgroup>
+										<col width="70px;" />
+										<col width="32.3%" />
+										<col width="70px" />
+										<col />
+										</colgroup>
+										<thead>
+											<tr>
+												<th class="ft_13" colspan="4">현금영수증 발행정보</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<th class="ft_11">식별번호</th>
+												<td class="ft_11" colspan="3"><span>010-9195-****</span></td>
+											</tr>
+											<tr>
+												<th class="ft_11">거래유형</th>
+												<td class="ft_11"><span>소득공제용</span></td>
+												<th class="ft_11">문서형태</th>
+												<td class="ft_11"><span>일반</span></td>
+												
+											</tr>
+											<tr>
+												<th class="ft_11">발행일시</th>
+												<td class="ft_11" colspan="3"><span>2014년 09월 12일 12:30:38</span></td>
+											</tr>
+										</tbody>
+								</table>
+							</td>
+							<td class="bg_right"></td>
+						</tr>
+						
+						<tr>
+							<td class="bg_left"></td>
+							<td>
+								<table class="buy_info table_common_cash">
+										<colgroup>
+										<col width="70px;" />
+										<col />
+										</colgroup>
+										<thead>
+											<tr>
+												<th class="ft_13" colspan="2">구매정보</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<th class="ft_11">거래처명</th>
+												<td class="ft_11"><span>가나다</span></td>
+											</tr>
+											<tr>
+												<th class="ft_11">주문번호</th>
+												<td class="ft_11"><span></span></td>
+											</tr>
+											<tr>
+												<th class="ft_11 height_" rowspan="2">주문상품명</th>
+												<td class="ft_11 height_" rowspan="2"><span>가나타</span></td>
+											</tr>
+										</tbody>
+									</table>
+									
+									<table class="cost_info table_common_cash">
+										<colgroup>
+										<col width="70px;" />
+										<col />
+										</colgroup>
+										<thead>
+											<tr>
+												<th class="ft_13" colspan="2">결제금액정보</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<th class="ft_11">공급가액</th>
+												
+												<td class="al_r pdr_5  ft_10"><span>8,181,819 원</span></td>
+											</tr>
+											<tr>
+												<th class="ft_11">부가세</th>
+												
+												<td class="al_r pdr_5 ft_10"><span>818,181 원</span></td>
+											</tr>
+											<tr>
+												<th class="ft_11">봉사료</th>
+												
+												<td class="al_r pdr_5 ft_10"><span>0 원</span></td>
+											</tr>
+											<tr>
+												<th class="totalbold ft_11">거래금액</th>
+												
+												<td class="al_r pdr_5 totalbold darkred ft_10"><span>900,000,000 원</span></td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+								<td class="bg_right"></td>
+							</tr>
+							
+							<tr>
+								<td class="bg_left"></td>
+								<td>
+									<table class="crop_info table_common_cash">
+										<colgroup>
+										<col width="70px;" />
+										<col />
+										<col width="70px" />
+										<col />
+										</colgroup>
+										<thead>
+											<tr>
+												<th class="ft_13" colspan="4">현금영수증 사업자정보</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<th class="ft_11">상호</th>
+												<td class="ft_11" colspan="3"><span>(주)이노포스트2,1</span></td>
+											</tr>
+											<tr>
+												<th class="ft_11">사업자번호</th>
+												<td class="ft_11"><span>410-86-00477</span></td>
+												<th class="ft_11" rowspan="2">대표번호</th>
+												<td class="ft_11" rowspan="2"><span>02-9999-2222</span></td>
+		
+											</tr>
+											<tr>
+												<th class="ft_11">대표자</th>
+												<td class="ft_11"><span>이경훈.,</span></td>
+											</tr>
+											<tr>
+												<th class="ft_11 height_" rowspan="2">주소</th>
+												<td class="add_prt ft_11 height_ pdr_5" colspan="3" rowspan="2"><span>ㅇ</span></td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+								<td class="bg_right"></td>
+							</tr>
+							
+							
+							<tr>
+								<td class="bg_left"></td>
+									<td>
+									<table class="ex_info table_common_cash">
+										<colgroup>
+										<col />
+										</colgroup>
+										<tbody>
+											<tr>
+												<th class="ft_11"><span class="inline_b pdt_5 pdb_5">본 영수증은 24시간 이내로 국세청에서 확인 후 최종 확정되며, 국세청 현금영수증 홈페이지(<a href="http://www.taxsave.go.kr" target="_blank">http://www.taxsave.go.kr</a>)에서 발급내역을 확인하실 수 있습니다.</span><br />
+												 <span>현금영수증은 [조세특례제한법 제126조 3항]에 의거하여 연말정산시 소득공제 혜택 부여의 목적으로 발행됩니다.</span></th>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								<td class="bg_right"></td>
+							</tr>
+							
+				</tbody>
+				<tfoot>
+					
+					<tr>
+						<td colspan="3"><img class="fl_l" src="/images/cash/bg_bottom_print.gif" /></td>
+						
+					</tr>
+					
+				</tfoot>
+			</table>
+		</div>			
+		<div class="al_c" id="area_interopcode">
+			
+		</div>
+	</div>
+				</div>
+			</div>
+			
+			
+			
+		</div>		
+	</div>
+	
+</div>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
